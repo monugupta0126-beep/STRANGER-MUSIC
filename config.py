@@ -21,23 +21,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("39440417"))
+API_HASH = getenv("45a1f4666846f26db1e10fc063a8f930")
+BOT_TOKEN = getenv("8607850406:AAEDYKUoNf5e2Q8F-GErYt4ujnacUFkM7m8")
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+BOT_USERNAME = getenv("BOT_USERNAME", "Xd_MusicXBot")
+BOT_NAME = getenv("BOT_NAME", "Xd_MusicBot")
+ASSUSERNAME = getenv("ASSUSERNAME", "Music_Xd0")
 
 # MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://monutech:<db_password>@monutech.hjasn6b.mongodb.net/?appName=monutech", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003850857973))
+OWNER_ID = int(getenv("OWNER_ID", 8772214154))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
